@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/baristar/static/css/main.68f9aeb1.chunk.css",
-    "main.js": "/baristar/static/js/main.2eff2134.chunk.js",
-    "main.js.map": "/baristar/static/js/main.2eff2134.chunk.js.map",
+    "main.js": "/baristar/static/js/main.1c9a0542.chunk.js",
+    "main.js.map": "/baristar/static/js/main.1c9a0542.chunk.js.map",
     "runtime-main.js": "/baristar/static/js/runtime-main.167b47f6.js",
     "runtime-main.js.map": "/baristar/static/js/runtime-main.167b47f6.js.map",
     "static/js/2.19eb78fa.chunk.js": "/baristar/static/js/2.19eb78fa.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.167b47f6.js",
     "static/js/2.19eb78fa.chunk.js",
     "static/css/main.68f9aeb1.chunk.css",
-    "static/js/main.2eff2134.chunk.js"
+    "static/js/main.1c9a0542.chunk.js"
   ]
 }
