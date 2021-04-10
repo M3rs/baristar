@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/baristar/static/css/main.381db2a7.chunk.css",
-    "main.js": "/baristar/static/js/main.a78f1b13.chunk.js",
-    "main.js.map": "/baristar/static/js/main.a78f1b13.chunk.js.map",
+    "main.css": "/baristar/static/css/main.68f9aeb1.chunk.css",
+    "main.js": "/baristar/static/js/main.356a0428.chunk.js",
+    "main.js.map": "/baristar/static/js/main.356a0428.chunk.js.map",
     "runtime-main.js": "/baristar/static/js/runtime-main.167b47f6.js",
     "runtime-main.js.map": "/baristar/static/js/runtime-main.167b47f6.js.map",
     "static/js/2.19eb78fa.chunk.js": "/baristar/static/js/2.19eb78fa.chunk.js",
@@ -10,13 +10,13 @@
     "static/js/3.12afe02a.chunk.js": "/baristar/static/js/3.12afe02a.chunk.js",
     "static/js/3.12afe02a.chunk.js.map": "/baristar/static/js/3.12afe02a.chunk.js.map",
     "index.html": "/baristar/index.html",
-    "static/css/main.381db2a7.chunk.css.map": "/baristar/static/css/main.381db2a7.chunk.css.map",
+    "static/css/main.68f9aeb1.chunk.css.map": "/baristar/static/css/main.68f9aeb1.chunk.css.map",
     "static/js/2.19eb78fa.chunk.js.LICENSE.txt": "/baristar/static/js/2.19eb78fa.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.167b47f6.js",
     "static/js/2.19eb78fa.chunk.js",
-    "static/css/main.381db2a7.chunk.css",
-    "static/js/main.a78f1b13.chunk.js"
+    "static/css/main.68f9aeb1.chunk.css",
+    "static/js/main.356a0428.chunk.js"
   ]
 }
