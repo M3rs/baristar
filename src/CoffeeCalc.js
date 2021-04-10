@@ -3,12 +3,12 @@ import { useState, useEffect } from 'react';
 
 export const CoffeeCalc = (props) => {
 
-    const [weight, setWeight] = useState(0);
+    const [weight, setWeight] = useState('');
     const [water, setWater] = useState(0);
 
     const calcWater = (e) => {
         const gc = e.target.valueAsNumber;
-        setWeight(gc || 0);
+        setWeight(gc || '');
     
         if (gc) {
           setWater(gc * props.coffee.Ratio);
@@ -18,7 +18,7 @@ export const CoffeeCalc = (props) => {
       }
 
     useEffect(() => {
-        setWeight(0);
+        setWeight('');
         setWater(0);
 
     }, [props.coffee])
@@ -37,7 +37,7 @@ export const CoffeeCalc = (props) => {
                     <label>Grams of Coffee?</label>
                     <input 
                         type="number" 
-                        value=""
+                        value={weight}
                         pattern="[0-9]*" 
                         inputMode="numeric"
                         onChange={calcWater} 
