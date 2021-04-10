@@ -43,16 +43,14 @@ input.coffeeWeight {
     color: $coffee;
     background-color: $cream;
     text-align: right;
+}
 
-    padding-right: 5px;
+div.grind {
+    font-size: 1.25rem;
 }
 
 div.water {
     color: $water;
     font-size: 1.25rem;
-
-    span {
-        padding-right: 5px;
-    }
 }
 

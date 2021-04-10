@@ -28,14 +28,26 @@ export const CoffeeCalc = (props) => {
         {props.show &&
             <div>
                 <div className="input-group">
+                    <label>Grind Setting</label>
+                    <div className="grind">
+                        <span>{props.coffee.Grind}</span> <FA name="cog" />
+                    </div>
+                </div>
+                <div className="input-group">
                     <label>Grams of Coffee?</label>
-                    <input type="number" pattern="^\d*" value={weight} onChange={calcWater} className="coffeeWeight"/>
+                    <input 
+                        type="number" 
+                        value=""
+                        pattern="[0-9]*" 
+                        inputMode="numeric"
+                        onChange={calcWater} 
+                        className="coffeeWeight"/>
                 </div>
 
                 <div className="input-group">
                     <label>Grams of Water:</label>
                     <div className="water">
-                    <span>{water}</span> <FA name="tint" />
+                        <span>{water}</span> <FA name="tint" />
                     </div>
                 </div>
             </div>
