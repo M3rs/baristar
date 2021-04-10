@@ -1,0 +1,58 @@
+$cream: #FEFCFF;
+$light: #FFF5EE;
+$coffee: #835C3B;
+$med: #7D4A2C;
+$dark: #6F4E37;
+$water: #37586F;
+$gold: #83803B;
+
+body {
+    color: $dark;
+    background-color: $light;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+div.App {
+    padding: 1rem;
+    max-width: 600px;
+}
+
+div.coffeeTypeBox {
+    display: flex;
+    flex-direction: column;
+}
+
+select.coffeeType {
+    font-size: 1.25rem;
+    color: $cream;
+    background-color: $coffee;
+}
+
+label {
+    font-weight: bold;
+}
+
+div.input-group {
+    display: flex;
+    justify-content: space-between;;
+}
+
+input.coffeeWeight {
+    font-size: 1.25rem;
+    color: $coffee;
+    background-color: $cream;
+    text-align: right;
+
+    padding-right: 5px;
+}
+
+div.water {
+    color: $water;
+    font-size: 1.25rem;
+
+    span {
+        padding-right: 5px;
+    }
+}
+
